@@ -6,7 +6,7 @@
 
         <!-- Bootstrap core CSS -->
         <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.0/css/bootstrap.css" rel="stylesheet" media="screen">
-        <link href="slate.min.css" rel="stylesheet" media="screen">
+        <link href="simplex.min.css" rel="stylesheet" media="screen">
         <link href="iplayer.css" rel="stylesheet" media="screen">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -15,18 +15,38 @@
         <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.js"></script>
         <![endif]-->
     </head>
-    <body>
+    <body data-spy="scroll" data-target=".navbar">
         <div class="container">
-            <h1> Responsive TV &amp; <img src="img/iplayer_pink.png"/> styleguide</h1>
-            <h2>Base styles</h2>
+            <div class="row">
+                <h1> Responsive TV &amp; <img src="img/iplayer_pink.png"/> styleguide</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-3 navbar">
+                    <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+                        <li><a href="#base">Base styles</a></li>
+                        <li><a href="#colour">Colour</a></li>
+                        <li>
+                            <a href="#layout">Layout</a>
+                            <ul>
+                                <li><a href="#font-sizes">Font sizes</a></li>
+                                <li><a href="#carousel">Carousel</a></li>
+                                <li><a href="#list">Episode/Programme list</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#popups">Popups</a></li>
+                        <li><a href="#navigation">Navigation</a></li>
+                        <li><a href="#icons">Icons</a></li>
+                        <li><a href="#channels">Channels</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-9">
+            <h2 id="base">Base styles</h2>
             <p>
                 <ul>
                     <li>Gel-padding: 8px</li>
                 </ul>
             </p>
-            <p>SDFSDF</p>
-            <h2>Colours</h2>
-
+            <h2 id="colour">Colour palette</h2>
             <table class="table table-striped colours">
                 <thead><tr><td>Name</td><td>Colour</td></tr></thead>
                 <tbody>
@@ -65,12 +85,56 @@
                 </tbody>
             </table>
 
-            <h2>Layout</h2>
+            <h2 id="layout">Layout</h2>
+            <h3 id="font-sizes">Font sizes</h3>
+                <ul>
+                    <li>Masterbrand: 11px, uppercase</li>
+                    <li>Episode title: 18px</li>
+                    <li>Episode subtitle: 14px</li>
+                </ul>
+            <h3 id="carousel">Carousel</h3>
+            <p>
+                <img class="img-responsive" src="img/carousel.jpg"/>
+                <ul>
+                    <li>Title: 18px, White</li>
+                    <li>Subtitle: 14px, Silver</li>
+                    <li>Space between elements, 2 times gel padding</li>
+                </ul>
+            </p>
+            <h3 id="list">Episodes and Programmes List</h3>
+            <p>
+                <img class="img-responsive" src="img/list.jpg"/>
+                <ul>
+                    <li>Title: 18px, White</li>
+                    <li>Subtitle: 14px, Silver</li>
+                    <li>Space between elements, 2 times gel padding</li>
+                </ul>
+            </p>
             <h2>Links</h2>
             <h2>Breakpoints</h2>
-            <h2>Popups</h2>
-            <h2>Navigation</h2>
-            <h2>Icons</h2>
+            <ul>
+                <li>Breakpoint 1, small devices: up to 400px</li>
+                <li>Breakpoint 2, regular mobile devices, from 401px to 600px</li>
+                <li>Breakpoint 3, Small tablets and portrait iPads, from 601px to 1008px</li>
+                <li>Breakpoint 4, desktops and landscape iPads from 1009 pixels onwards</li>
+            </ul>
+            <h2 id="popups">Popups</h2>
+            <h3>Modal</h3>
+                <img class="img-responsive" src="img/tvlicense.jpg"/>
+                <p>Background fade: dark-transparent</p>
+            <h3>No modal</h3>
+            <h2 id="navigation">Navigation</h2>
+            <h2 id="icons">Icons</h2>
+            <h2 id="channels">Channels</h2>
+            <h3>BBC One</h3>
+            <h3>BBC Two</h3>
+            <h3>BBC Three</h3>
+            <h3>BBC Four</h3>
+            <h3>CBeebies</h3>
+            <h3>CBBC</h3>
+            <h3>BBC News</h3>
+            <h3>BBC Parliament</h3>
+            <h3>BBC Alba</h3>
         </div>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
