@@ -32,7 +32,7 @@ $white: #fff;
 $white-rock: #eee;
 
 
-.table {
+.table.colours {
     color: $white-rock;
 
     .light, .name, thead {
@@ -64,4 +64,9 @@ $white-rock: #eee;
             background-color: $not-quite-iplayer-pink;
         }
     }
+}
+
+.nav .nav {
+    font-size: 10px;
+    margin-left: 10px;
 }

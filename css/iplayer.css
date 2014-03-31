@@ -1,9 +1,9 @@
 /* line 35, ../scss/iplayer.scss */
-.table {
+.table.colours {
   color: #eeeeee;
 }
 /* line 38, ../scss/iplayer.scss */
-.table .light, .table .name, .table thead {
+.table.colours .light, .table.colours .name, .table.colours thead {
   color: #343434;
 }
 
@@ -32,4 +32,10 @@
 /* line 63, ../scss/iplayer.scss */
 .examples button:hover, .examples button:focus {
   background-color: #cf3e80;
+}
+
+/* line 69, ../scss/iplayer.scss */
+.nav .nav {
+  font-size: 10px;
+  margin-left: 10px;
 }
