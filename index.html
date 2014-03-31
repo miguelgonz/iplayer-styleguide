@@ -7,7 +7,7 @@
         <!-- Bootstrap core CSS -->
         <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.0/css/bootstrap.css" rel="stylesheet" media="screen">
         <link href="simplex.min.css" rel="stylesheet" media="screen">
-        <link href="iplayer.css" rel="stylesheet" media="screen">
+        <link href="css/iplayer.css" rel="stylesheet" media="screen">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -88,30 +88,46 @@
 
             <h2 id="layout">Layout</h2>
             <h3 id="font-sizes">Font sizes</h3>
-                <ul>
-                    <li>Masterbrand: 11px, uppercase</li>
-                    <li>Episode title: 18px</li>
-                    <li>Episode subtitle: 14px</li>
-                </ul>
+            <ul>
+                <li>Masterbrand: 11px, uppercase</li>
+                <li>Episode title: 18px</li>
+                <li>Episode subtitle: 14px</li>
+                <li>Episode synopsis: 14px</li>
+            </ul>
+
             <h3 id="carousel">Carousel</h3>
             <p>
                 <img class="img-responsive" src="img/carousel.jpg"/>
                 <ul>
-                    <li>Title: 18px, White</li>
-                    <li>Subtitle: 14px, Silver</li>
+                    <li>Title: White</li>
+                    <li>Subtitle: Silver</li>
                     <li>Space between elements, 2 times gel padding</li>
                 </ul>
             </p>
+
             <h3 id="list">Episodes and Programmes List</h3>
             <p>
                 <img class="img-responsive" src="img/list.jpg"/>
                 <ul>
-                    <li>Title: 18px, White</li>
-                    <li>Subtitle: 14px, Silver</li>
+                    <li>Header: 22px, White</li>
+                    <li>Title: White</li>
+                    <li>Subtitle: White</li>
+                    <li>Synopsis: Silver</li>
+                    <li>Tertiary information 13px</li>
                     <li>Space between elements, 2 times gel padding</li>
                 </ul>
             </p>
-            <h2>Links</h2>
+
+
+            <h2>Links and buttons</h2>
+            <p>
+                Links hover colour is iplayer-pink whereas buttons (or areas that get highlighted) are not-quite-iplayer-pink:
+            </p> 
+            <p class="examples">
+                <a href="#">This is a link</a> and <button>This is a button</button>
+            </p> 
+
+
             <h2>Breakpoints</h2>
             <ul>
                 <li>Breakpoint 1, small devices: up to 400px</li>
@@ -119,11 +135,15 @@
                 <li>Breakpoint 3, Small tablets and portrait iPads, from 601px to 1008px</li>
                 <li>Breakpoint 4, desktops and landscape iPads from 1009 pixels onwards</li>
             </ul>
+
+
             <h2 id="popups">Popups</h2>
             <h3>Modal</h3>
-                <img class="img-responsive" src="img/tvlicense.jpg"/>
-                <p>Background fade: dark-transparent</p>
+            <img class="img-responsive" src="img/tvlicense.jpg"/>
+            <p>Background fade: dark-transparent</p>
             <h3>No modal</h3>
+            <img class="" src="img/popup.jpg"/>
+            <p>Background colour: Slate gray</p>
             <h2 id="navigation">Navigation</h2>
             <h2 id="icons">Icons</h2>
             <h2 id="channels">Channels</h2>
